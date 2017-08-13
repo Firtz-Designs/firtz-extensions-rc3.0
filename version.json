@@ -48,6 +48,10 @@
     "supporter": {
       "version": "1.0",
       "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/download/supporter.zip?raw=true"
+    },
+    "colorset": {
+      "version": "1.0",
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/download/colorset.zip?raw=true"
     }
   }
 }
