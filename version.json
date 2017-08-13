@@ -15,27 +15,27 @@
     },
     "disqus": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/disqus.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/disqus.zip?raw=true"
     },
     "jsondl": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/jsondl.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/jsondl.zip?raw=true"
     },
     "listdl": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/listdl.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/listdl.zip?raw=true"
     },
     "media": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/media.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/media.zip?raw=true"
     },
     "podlove-webplayer4": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/podlove-webplayer4.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/podlove-webplayer4.zip?raw=true"
     },
     "podtrac": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/podtrac.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/podtrac.zip?raw=true"
     },
     "rights": {
       "version": "3.0",
@@ -43,11 +43,11 @@
     },
     "shariff": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/shariff.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/shariff.zip?raw=true"
     },
     "supporter": {
       "version": "3.0",
-      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/upload/supporter.zip?raw=true"
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/upload/supporter.zip?raw=true"
     }
   }
 }
