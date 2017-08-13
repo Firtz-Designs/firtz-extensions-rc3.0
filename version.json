@@ -6,48 +6,48 @@
   },
   "extensions": {
     "banner": {
-      "version": "3.1",
-      "url": "http://github.com/...."
+      "version": "3.0",
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "contributors": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "disqus": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "jsondl": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "listdl": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "media": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "podlove-webplayer4": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "podtrac": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "rights": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "shariff": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     },
     "supporter": {
       "version": "3.0",
-      "url": "http://github.com/...."
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/edit/master/"
     }
   }
 }
