@@ -1,0 +1,18 @@
+<!-- PSLI: legal podcast information (rights) -->
+<psli:rights version="1.0">
+    <psli:website mode="website"
+                name="Democast"
+                type="text/html"
+                url="http://democast.tld"
+                operator="John Dow">
+        <psli:right feed="none"/>
+    </psli:website>
+
+    <psli:feeds mode="feed"
+              name="Democast"
+              type="application/rss+xml"
+              url="http://democast.tld"
+              operator="John Dow">
+        <psli:right feed="none"/>
+    </psli:feeds>
+</psli:rights>

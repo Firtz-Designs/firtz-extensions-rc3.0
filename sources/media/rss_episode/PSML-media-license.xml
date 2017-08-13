@@ -1,0 +1,78 @@
+<!-- PSML: podcast license (media) -->
+<psml:license version="1.0">
+    <check if="{{@item.intro_title}}">
+        <true>
+            <psml:sound mode="intro"
+            <check if="{{@item.intro_title}}">title="{{@item.intro_title}}"</check>
+            <check if="{{@item.intro_owner}}">producer="{{@item.intro_owner}}"</check>
+            <check if="{{@item.intro_ownerUrl}}">producerUrl="{{@item.intro_ownerUrl}}"</check>
+            <check if="{{@item.intro_lic}}">license="{{@item.intro_lic}}"</check>
+            <check if="{{@item.intro_licUrl}}">licenseUrl="{{@item.intro_licUrl}}"</check>/>
+        </true>
+        <false>
+            <check if="{{@feedattr.intro_title}}">
+                <psml:sound mode="intro"
+                <check if="{{@feedattr.intro_title}}">title="{{@feedattr.intro_title}}"</check>
+                <check if="{{@feedattr.intro_owner}}">producer="{{@feedattr.intro_owner}}"</check>
+                <check if="{{@feedattr.intro_ownerUrl}}">producerUrl="{{@feedattr.intro_ownerUrl}}"</check>
+                <check if="{{@feedattr.intro_lic}}">license="{{@feedattr.intro_lic}}"</check>
+                <check if="{{@feedattr.intro_licUrl}}">licenseUrl="{{@feedattr.intro_licUrl}}"</check>/>
+            </check>
+        </false>
+    </check>
+    <check if="{{@item.outro_title}}">
+        <true>
+            <psml:sound mode="outro"
+            <check if="{{@item.outro_title}}">title="{{@item.outro_title}}"</check>
+            <check if="{{@item.outro_owner}}">producer="{{@item.outro_owner}}"</check>
+            <check if="{{@item.outro_ownerUrl}}">producerUrl="{{@item.outro_ownerUrl}}"</check>
+            <check if="{{@item.outro_lic}}">license="{{@item.outro_lic}}"</check>
+            <check if="{{@item.outro_licUrl}}">licenseUrl="{{@item.outro_licUrl}}"</check>/>
+        </true>
+        <false>
+            <check if="{{@feedattr.outro_title}}">
+                <psml:sound mode="outro"
+                <check if="{{@feedattr.outro_title}}">title="{{@feedattr.outro_title}}"</check>
+                <check if="{{@feedattr.outro_owner}}">producer="{{@feedattr.outro_owner}}"</check>
+                <check if="{{@feedattr.outro_ownerUrl}}">producerUrl="{{@feedattr.outro_ownerUrl}}"</check>
+                <check if="{{@feedattr.outro_lic}}">license="{{@feedattr.outro_lic}}"</check>
+                <check if="{{@feedattr.outro_licUrl}}">licenseUrl="{{@feedattr.outro_licUrl}}"</check>/>
+            </check>
+        </false>
+    </check>
+    <check if="{{@templatevars.epibanner == 'on'}}">
+        <psml:image mode="banner"
+                  title="Banner for Episode {{@item.slug}}"
+                  type="image/{{@templatevars.epicovertype}}"
+                  href="{{@BASEURL}}feeds/{{@feedattr.slug}}/{{@item.slug}}.{{@templatevars.epicovertype}}"
+                  creator="{{@item.bannerPage}}"
+                  creatorUrl="{{@item.bannerURL}}"
+                  license="{{@item.bannerLicense}}"
+                  licenseUrl="{{@item.bannerURL}}"
+        />
+    </check>
+    <check if="{{@item.image != ''}}">
+        <true>
+            <psml:image mode="poster"
+                        title="{{@item.image}}"
+                        type="image/png"
+                        href="{{@item.image}}"
+                        creator="{{@feedattr.author}}"
+                        creatorUrl="{{@BASEURL}}"
+                        license="Copyright {{@item.title}} - Episode: {{@item.slug}}"
+                        licenseUrl="{{@BASEURL}}{{@feedattr.slug}}/show/{{@item.slug}}"
+            />
+        </true>
+        <false>
+            <psml:image mode="poster"
+                        title="{{@feedattr.image}}"
+                        type="image/png"
+                        href="{{@feedattr.image}}"
+                        creator="{{@feedattr.author}}"
+                        creatorUrl="{{@BASEURL}}"
+                        license="Copyright {{@item.title}} - Episode: {{@item.slug}}"
+                        licenseUrl="{{@BASEURL}}{{@feedattr.slug}}/show/{{@item.slug}}"
+            />
+        </false>
+    </check>
+</psml:license>

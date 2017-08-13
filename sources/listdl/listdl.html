@@ -1,0 +1,14 @@
+<h1>{{@feedattr.title}}</h1>
+
+<h3>Download all Episodes</h3>
+
+<ul>
+    <repeat group="@items" value="{{@item}}">
+        <li>
+            <b>Episode:</b> {{ @item.slug }} - {{ @item.title }}
+            <p>
+                <a href="{{ @item.enclosure.link }}">{{ @item.enclosure.link }}</a>
+            </p>
+        </li>
+    </repeat>
+</ul>

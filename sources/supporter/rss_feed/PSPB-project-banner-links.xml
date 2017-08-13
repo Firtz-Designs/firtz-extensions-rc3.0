@@ -1,0 +1,17 @@
+<!-- PSPB: project banner (supporter) -->
+<pspb:projects version="1.0">
+    <repeat group="{{ explode(', ',@forgetByProject) }}" value="{{@project}}">
+        <check if="{{@project == 'ultraschall'}}">
+            <pspb:project rel="http://ultraschall.fm"
+                        title="Ultraschall"/>
+        </check>
+        <check if="{{@project == 'podlove'}}">
+            <pspb:project rel="https://podlove.org"
+                        title="Podlove"/>
+        </check>
+        <check if="{{@project == 'studio-link'}}">
+            <pspb:project rel="https://studio-link.de"
+                          title="Studio-Link"/>
+        </check>
+    </repeat>
+</pspb:projects>

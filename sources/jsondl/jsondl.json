@@ -1,0 +1,26 @@
+{
+    "api": {
+      "type": "application/json",
+      "host": {{ json_encode(@scheme)}},
+      "version": "{{@version}}.{{@revision}}",
+      "generator": "{{@generator}}"
+    },
+    "show": {
+        "title": {{ json_encode(@feedattr.title) }},
+        "subtitle": {{ json_encode(@feedattr.subtitle)}},
+        "summary": {{ json_encode(@feedattr.description)}},
+        "poster": {{ json_encode(@feedattr.image)}}
+
+    },
+    <repeat group="@items" value="{{@item}}">
+{{ json_encode(@item.slug) }}: {
+        "slug": {{ json_encode(@item.slug) }},
+        "title": {{ json_encode(@item.title) }},
+        "subtitle": {{ json_encode(nl2br(@item.description)) }},
+        "publicationDate":  "{{date ('Y-d-m' , strtotime(@item.date))}}T{{date ('H:i:s+00:00' , strtotime(@item.date))}}",
+        "poster": <check if="{{@item.image}}"><true>{{ json_encode(@item.image) }}</true><false>{{ json_encode(@feedattr.image) }}</false></check>,
+        "download": {{ json_encode(@item.enclosure.link) }},
+        "duration": "{{@item.duration}}"
+    },
+    </repeat>"timestemp": "{{date('Y-d-m')}}T{{date('H:i:s+00:00')}}"
+}
