@@ -1,0 +1,53 @@
+{
+  "data": {
+    "name": "firtz-extensions",
+    "version": "3.0",
+    "developer": "Michael McCouman Jr."
+  },
+  "extensions": {
+    "banner": {
+      "version": "3.1",
+      "url": "http://github.com/...."
+    },
+    "contributors": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "disqus": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "jsondl": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "listdl": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "media": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "podlove-webplayer4": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "podtrac": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "rights": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "shariff": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    },
+    "supporter": {
+      "version": "3.0",
+      "url": "http://github.com/...."
+    }
+  }
+}
