@@ -12,3 +12,5 @@ Alle Erweiterungen für den firtz Podcast Publisher (Release 3.0)
 - [podtrac](https://github.com/Firtz-Designs/firtz-extensions-rc3.0/tree/master/sources/podtrac)
 - [shariff](https://github.com/Firtz-Designs/firtz-extensions-rc3.0/tree/master/sources/shariff)
 - [supporter](https://github.com/Firtz-Designs/firtz-extensions-rc3.0/tree/master/sources/supporter)
+
+Mehr findest Du unter: http://firtz.wikibyte.org
