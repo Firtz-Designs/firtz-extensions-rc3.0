@@ -7,9 +7,9 @@ Fyyd ist eine Podcast Directory. Damit du deinen Podcast dort verändern kannst 
 
 **1.) Das fyyd Claim:**
 
-Melde dich bei [fyyd.de](https://fyyd.de/login) an oder erstelle dir
-<a href="https://fyyd.de/user-new">hier</a> einen neuen Account. Suche nach deinem Podcast oder
-<a href="https://fyyd.de/add-feed">reiche den Feed hier ein</a>. Ist dein Podcast angenommen,
+Melde dich bei <a target="_blank" href="https://fyyd.de/login">fyyd.de</a> an oder erstelle dir
+<a target="_blank" href="https://fyyd.de/user-new">hier</a> einen neuen Account. Suche nach deinem Podcast oder
+<a target="_blank" href="https://fyyd.de/add-feed">reiche den Feed hier ein</a>. Ist dein Podcast angenommen,
 so findest Du auf Seite den Link "(C) Claim". Fahre fort um deine ID zu sichern.
 
 **2.) Das fyyd Claim:**
@@ -24,7 +24,7 @@ verify 123456789012345678901234567890123456789
 
 **XML Beispiel:**
 
-In jedem deiner Feeds wird nun der XML Tag eingetragen.
+In jedem deiner Feeds wird nun der XML Tag eingetragen
 
 <pre>
 &lt;!-- fyyd verify -->
