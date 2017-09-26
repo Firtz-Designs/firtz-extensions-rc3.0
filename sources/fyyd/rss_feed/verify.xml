@@ -1,0 +1,3 @@
+<check if="{{@extvars.fyyd.verify !=''}}">
+    <fyyd:verify xmlns:fyyd="https://fyyd.de/fyyd-ns/" version="1.0">{{@extvars.fyyd.verify}}</fyyd:verify>
+</check>

@@ -30,7 +30,7 @@
       "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/download/media.zip?raw=true"
     },
     "podlove-webplayer4": {
-      "version": "4.0.a",
+      "version": "4.0.b",
       "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/download/podlove-webplayer4.zip?raw=true"
     },
     "podtrac": {
@@ -52,6 +52,10 @@
     "colorset": {
       "version": "1.0",
       "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/download/colorset.zip?raw=true"
+    },
+    "fyyd": {
+      "version": "1.0",
+      "url": "https://github.com/Firtz-Designs/firtz-extensions-rc3.0/blob/master/download/fyyd.zip?raw=true"
     }
   }
 }
