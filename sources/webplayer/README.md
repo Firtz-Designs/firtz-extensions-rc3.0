@@ -1,4 +1,4 @@
-### About Podlove Webplayer 4 Extension
+### About Podlove Webplayer 4 (Beta) Extension
 
 Diese Erweiterung erzeugt einen Webplayer mit Sharing Funktionen, zum Einbinden des Audioplayers als iframe.
 Er ist Teil des Projekts Podlove Webplayer und steht unter der MIT Lizenz.

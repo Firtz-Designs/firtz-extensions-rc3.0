@@ -1,7 +1,7 @@
 <div class="wp-position uk-animation-toggle">
     <div id="player-{{@item.slug}}" class="player uk-animation-fade"
          uk-scrollspy="cls:uk-animation-fade;repeat: false"></div>
-    <script src="{{@BASEURL}}ext/podlove-webplayer4/embed.js"></script>
+    <script src="{{@BASEURL}}ext/webplayer/embed.js"></script>
     <script>
         podlovePlayer("#player-{{@item.slug}}", {
             show: {
@@ -36,14 +36,14 @@
                 </check>
             </repeat>],
             reference: {
-                base: '{{@BASEURL}}ext/podlove-webplayer4/',
+                base: '{{@BASEURL}}ext/webplayer',
                 config: '{{@BASEURL}}{{@feedattr.slug}}/share/{{@item.slug}}',
                 share: '{{@BASEURL}}share'
             },
             theme: {
                 main: '{{@templatevars.color}}'
-                <check if="{{ @templatevars.pwp =='highlight' }}">,
-                highlight: '{{@templatevars.highlight}}'</check>
+                <check if="{{ @extvars.webplayer.color !='' }}">,
+                highlight: '{{@extvars.webplayer.color}}'</check>
             },
             runtime: {
                 platform: 'desktop',

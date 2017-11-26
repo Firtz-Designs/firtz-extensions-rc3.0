@@ -487,21 +487,28 @@ img {
   display: flex;
   justify-content: space-between;
 }
+/*
 @font-face {
   font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Light.eot?fa487cca520cc7f78a271cb182a29c03) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff?620af15165ec011b7982f308eb48c34e) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff2?315ad98e0cb4208b2a002dad0f5b92e8) format("woff2");
+  src: url(../../ext/webplayer/fonts/FiraSans-Light.eot?fa487cca520cc7f78a271cb182a29c03) format("eot"),
+  url(../../ext/webplayer/fonts/FiraSans-Light.woff?620af15165ec011b7982f308eb48c34e) format("woff"),
+  url(../../ext/webplayer/fonts/FiraSans-Light.woff2?315ad98e0cb4208b2a002dad0f5b92e8) format("woff2");
   font-weight: 300;
 }
 @font-face {
   font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Regular.eot?bfcf38c3c6170588e22046f671c26fc9) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff?abbc4d42c352d94dd0a00856769ebc5a) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff2?26f9ff8eb3877040b5f2f0e36759192f) format("woff2");
+  src: url(/ext/webplayer/fonts/FiraSans-Regular.eot?bfcf38c3c6170588e22046f671c26fc9) format("eot"),
+  url(/ext/webplayer/fonts/FiraSans-Regular.woff?abbc4d42c352d94dd0a00856769ebc5a) format("woff"),
+  url(/ext/webplayer/fonts/FiraSans-Regular.woff2?26f9ff8eb3877040b5f2f0e36759192f) format("woff2");
   font-weight: 500;
 }
 @font-face {
   font-family: Fira Mono;
-  src: url(ext/podlove-webplayer4/fonts/FiraMono-Regular.eot?8d876c180eb01a79be6d1d8bc121919f) format("eot"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff?f25e0dfc5b508f34f63724d7ff607384) format("woff"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff2?fe92bd266274aa44e22e48ca0317ff98) format("woff2");
+  src: url(/ext/webplayer/fonts/FiraMono-Regular.eot?8d876c180eb01a79be6d1d8bc121919f) format("eot"),
+  url(/ext/webplayer/fonts/FiraMono-Regular.woff?f25e0dfc5b508f34f63724d7ff607384) format("woff"),
+  url(/ext/webplayer/fonts/FiraMono-Regular.woff2?fe92bd266274aa44e22e48ca0317ff98) format("woff2");
   font-weight: 500;
-}
+}*/
 .podlove {
   font-size: 14px;
   font-weight: 300;
@@ -703,25 +710,7 @@ ul, ol {
   display: flex;
   justify-content: space-between;
 }
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Light.eot?fa487cca520cc7f78a271cb182a29c03) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff?620af15165ec011b7982f308eb48c34e) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff2?315ad98e0cb4208b2a002dad0f5b92e8) format("woff2");
-  font-weight: 300;
-}
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Regular.eot?bfcf38c3c6170588e22046f671c26fc9) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff?abbc4d42c352d94dd0a00856769ebc5a) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff2?26f9ff8eb3877040b5f2f0e36759192f) format("woff2");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Fira Mono;
-  src: url(ext/podlove-webplayer4/fonts/FiraMono-Regular.eot?8d876c180eb01a79be6d1d8bc121919f) format("eot"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff?f25e0dfc5b508f34f63724d7ff607384) format("woff"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff2?fe92bd266274aa44e22e48ca0317ff98) format("woff2");
-  font-weight: 500;
-}
-.podlove {
-  font-size: 14px;
-  font-weight: 300;
-}
+
 .input-element {
   margin-bottom: 1em;
   padding: 0 1em 1em 1em;
@@ -1145,25 +1134,7 @@ to {
     height: 0;
 }
 
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Light.eot?fa487cca520cc7f78a271cb182a29c03) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff?620af15165ec011b7982f308eb48c34e) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff2?315ad98e0cb4208b2a002dad0f5b92e8) format("woff2");
-  font-weight: 300;
-}
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Regular.eot?bfcf38c3c6170588e22046f671c26fc9) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff?abbc4d42c352d94dd0a00856769ebc5a) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff2?26f9ff8eb3877040b5f2f0e36759192f) format("woff2");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Fira Mono;
-  src: url(ext/podlove-webplayer4/fonts/FiraMono-Regular.eot?8d876c180eb01a79be6d1d8bc121919f) format("eot"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff?f25e0dfc5b508f34f63724d7ff607384) format("woff"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff2?fe92bd266274aa44e22e48ca0317ff98) format("woff2");
-  font-weight: 500;
-}
-.podlove {
-  font-size: 14px;
-  font-weight: 300;
-}
+
 .timer-progress {
   display: flex;
   width: 100%;
@@ -1280,21 +1251,6 @@ to {
   padding: 1em 0;
 }
 
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Light.eot?fa487cca520cc7f78a271cb182a29c03) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff?620af15165ec011b7982f308eb48c34e) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff2?315ad98e0cb4208b2a002dad0f5b92e8) format("woff2");
-  font-weight: 300;
-}
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Regular.eot?bfcf38c3c6170588e22046f671c26fc9) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff?abbc4d42c352d94dd0a00856769ebc5a) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff2?26f9ff8eb3877040b5f2f0e36759192f) format("woff2");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Fira Mono;
-  src: url(ext/podlove-webplayer4/fonts/FiraMono-Regular.eot?8d876c180eb01a79be6d1d8bc121919f) format("eot"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff?f25e0dfc5b508f34f63724d7ff607384) format("woff"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff2?fe92bd266274aa44e22e48ca0317ff98) format("woff2");
-  font-weight: 500;
-}
 .podlove {
   font-size: 14px;
   font-weight: 300;
@@ -1403,25 +1359,6 @@ to {
   background-color: #888;
 }
 
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Light.eot?fa487cca520cc7f78a271cb182a29c03) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff?620af15165ec011b7982f308eb48c34e) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Light.woff2?315ad98e0cb4208b2a002dad0f5b92e8) format("woff2");
-  font-weight: 300;
-}
-@font-face {
-  font-family: Fira Sans;
-  src: url(ext/podlove-webplayer4/fonts/FiraSans-Regular.eot?bfcf38c3c6170588e22046f671c26fc9) format("eot"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff?abbc4d42c352d94dd0a00856769ebc5a) format("woff"), url(ext/podlove-webplayer4/fonts/FiraSans-Regular.woff2?26f9ff8eb3877040b5f2f0e36759192f) format("woff2");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Fira Mono;
-  src: url(ext/podlove-webplayer4/fonts/FiraMono-Regular.eot?8d876c180eb01a79be6d1d8bc121919f) format("eot"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff?f25e0dfc5b508f34f63724d7ff607384) format("woff"), url(ext/podlove-webplayer4/fonts/FiraMono-Regular.woff2?fe92bd266274aa44e22e48ca0317ff98) format("woff2");
-  font-weight: 500;
-}
-.podlove {
-  font-size: 14px;
-  font-weight: 300;
-}
 .input-button {
   opacity: 1;
   transition: opacity 300ms;
